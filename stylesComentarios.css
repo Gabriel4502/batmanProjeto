@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+html{
+    height: 670px;
+}
+h3{
+    font-family: 'Kdam Thmor pro', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    padding: 20px 0;
+}
+
+
+#logo{
+    height: 90px;
+}
+
+#comentarios{
+    width: 976px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+
+}
+#mensagem{
+    display: block;
+}
+
+#botao{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    width: 976px;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-family: 'Kdam Thmor pro', sans-serif;
+    background-color: #D21617;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.comentarios-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 625px;
+    background-color: rgb(87, 84, 84);
+    color: #fff;
+}
+
+
+#mensagem{
+    margin-top: 15px;
+    width: 974px;
+    height: 119px;
+}
+
+#nome{
+    height: 50px;
+    width: 436px;
+}
+
+#email{
+    width: 436px;
+    height: 50px;
+}
+
+label{
+    font-family: 'Kdam Thmor pro', sans-serif;
+}
+
+
+@media (max-width: 1024px){
+    form{
+        width: 60%;
+    }
+
+    #email{
+        width: 35%;
+    }
+
+    #nome{
+        width: 35%;
+    }
+
+    #mensagem{
+        width: 100%;
+    }
+    #comentarios{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    h3{
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+
+    #email{
+        width: 100%;
+    }
+
+    #nome{
+        width: 100%;
+    }
+    .comentarios-container{
+        height: 730px;
+    }
+
+    label{
+        display: block;    
+    }
+}
